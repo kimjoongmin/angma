@@ -11,16 +11,13 @@
     {
       "id": "3",
       "day": 3
+    },
+    {
+      "id": "aaa2",
+      "day": 4
     }
   ],
   "words": [
-    {
-      "id": "1",
-      "day": 1,
-      "eng": "book",
-      "kor": "책",
-      "isDone": true
-    },
     {
       "id": "3",
       "day": 2,
@@ -33,6 +30,20 @@
       "day": 3,
       "eng": "school",
       "kor": "학교",
+      "isDone": true
+    },
+    {
+      "id": "7fb0",
+      "day": "1",
+      "eng": "book",
+      "kor": "책",
+      "isDone": false
+    },
+    {
+      "id": "740e",
+      "day": "2",
+      "eng": "cup",
+      "kor": "컵",
       "isDone": false
     }
   ]
