@@ -95,7 +95,7 @@ export default function CreateWord() {
             });
             if (res.ok) {
                 alert("저장 되었습니다.");
-                navigate("/");
+                navigate(`/day/${dayRef.current.value}`); //실수 있었음
             }
         } catch (error) {
             console.error("Error: ", error);
