@@ -32,10 +32,7 @@ export default function Header() {
                     단어 추가
                 </Link>
                 <Link to="/CreateDay" className="link">
-                    Day 추가
-                </Link>
-                <Link to="/CreateDay" className="link">
-                    Day 삭제
+                    Day 추가 / 삭제
                 </Link>
             </div>
         </div>

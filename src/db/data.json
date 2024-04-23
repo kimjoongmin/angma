@@ -19,16 +19,33 @@
     {
       "id": "f802",
       "day": 5
+    },
+    {
+      "0": {
+        "id": "1",
+        "day": 1
+      },
+      "1": {
+        "id": "2",
+        "day": 2
+      },
+      "2": {
+        "id": "3",
+        "day": 3
+      },
+      "3": {
+        "id": "aaa2",
+        "day": 4
+      },
+      "4": {
+        "id": "f802",
+        "day": 5
+      },
+      "id": "239f",
+      "day": 6
     }
   ],
   "words": [
-    {
-      "id": "3",
-      "day": 2,
-      "eng": "car",
-      "kor": "자동차",
-      "isDone": true
-    },
     {
       "id": "5",
       "day": 3,
@@ -41,7 +58,7 @@
       "day": "1",
       "eng": "book",
       "kor": "책",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "740e",
@@ -62,6 +79,20 @@
       "day": "4",
       "eng": "love",
       "kor": "사랑",
+      "isDone": false
+    },
+    {
+      "id": "712e",
+      "day": "1",
+      "eng": "2",
+      "kor": "2",
+      "isDone": false
+    },
+    {
+      "id": "9da4",
+      "eng": "ㅁㄴㅇ",
+      "kor": "ㅁㄴㅇ",
+      "day": "6",
       "isDone": false
     }
   ]
