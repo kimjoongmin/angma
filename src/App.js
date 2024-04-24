@@ -5,7 +5,7 @@
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import EmptyPage from "./components/EmptyPage";
 // //Switch 대신 Routes
-// //Route에서 component prop 대신 element prop 사용하여 jsx 요소 전달
+// //Route에서 component prop 대신 element prop 사용하여 jsx 요소 전달!
 // export default function App() {
 //     return (
 //         <div className="App">
