@@ -13,7 +13,7 @@
 //         try {
 //             const res = await fetch(`http://localhost:3001/words`, {
 //                 method: "POST",
-//                 header: {
+//                 headers: {
 //                     "Content-Type": "application/json",
 //                 },
 //                 body: JSON.stringify({
@@ -83,7 +83,7 @@ export default function CreateWord() {
         try {
             const res = await fetch("http://localhost:3001/words", {
                 method: "POST",
-                header: {
+                headers: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({

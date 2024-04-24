@@ -9,7 +9,7 @@
 //         try {
 //             const res = await fetch("http://localhost:3001/days", {
 //                 method: "POST",
-//                 header: {
+//                 headers: {
 //                     "Content-Type": "application/json",
 //                 },
 //                 body: JSON.stringify({
@@ -66,7 +66,7 @@ export default function CreateDay() {
         try {
             const res = await fetch("http://localhost:3001/days", {
                 method: "POST",
-                header: { "Content-Type": "application/json" },
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     ...days,
                     day: days.length + 1,
