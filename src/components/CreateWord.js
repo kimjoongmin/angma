@@ -77,7 +77,7 @@ export default function CreateWord() {
     const days = UseFetch("http://localhost:3001/days");
     const navigate = useNavigate();
 
-    //최종
+    //최종 동일한 내용 수정
     async function onSubmit(e) {
         e.preventDefault();
 
