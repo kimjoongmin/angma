@@ -13,7 +13,7 @@
 //         try {
 //             const res = await fetch(`http://localhost:3001/words`, {
 //                 method: "POST",
-//                 headers: {
+//                 header: {
 //                     "Content-Type": "application/json",
 //                 },
 //                 body: JSON.stringify({
@@ -83,7 +83,7 @@ export default function CreateWord() {
         try {
             const res = await fetch("http://localhost:3001/words", {
                 method: "POST",
-                headers: {
+                header: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
@@ -95,7 +95,7 @@ export default function CreateWord() {
             });
             if (res.ok) {
                 alert("저장 되었습니다.");
-                navigate(`/day/${dayRef.current.value}`); //실수 있었음!!
+                navigate(`/day/${dayRef.current.value}`); //실수 있었음
             }
         } catch (error) {
             console.error("Error: ", error);
