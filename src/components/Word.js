@@ -72,7 +72,7 @@
 //     //     //데이터를 변경 유지
 //     //     fetch(`http://localhost:3001/words/${word.id}`, {
 //     //         method: "PUT",
-//     //         header: {
+//     //         headers: {
 //     //             "Content-Type": "application/json",
 //     //         },
 //     //         body: JSON.stringify({
@@ -89,7 +89,7 @@
 //         try {
 //             const res = await fetch(`http://localhost:3001/words/${word.id}`, {
 //                 method: "PUT",
-//                 header: {
+//                 headers: {
 //                     "Content-Type": "application/json",
 //                 },
 //                 body: JSON.stringify({
@@ -174,7 +174,7 @@
 //         try {
 //             const res = await fetch(`http://localhost:3001/words/${word.id}`, {
 //                 method: "PUT",
-//                 header: {
+//                 headers: {
 //                     "Content-Type": "application/json",
 //                 },
 //                 body: JSON.stringify({
