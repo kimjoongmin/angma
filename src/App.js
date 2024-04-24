@@ -33,7 +33,6 @@ export default function App() {
     return (오류코드
         <div className="App">
             <BrowserRouter>
-                잘된코드
                 <Header />
                 <Routes>
                     <Route path="/" element={<DayList />} />
