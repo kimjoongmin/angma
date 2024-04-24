@@ -84,6 +84,7 @@ export default function CreateWord() {
             const res = await fetch("http://localhost:3001/words", {
                 method: "POST",
                 headers: {
+                    //실수조심
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
