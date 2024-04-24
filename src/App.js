@@ -30,7 +30,7 @@ import CreateWord from "./components/CreateWord";
 import CreateDay from "./components/CreateDay";
 
 export default function App() {
-    return (
+    return (오류코드
         <div className="App">
             <BrowserRouter>
                 <Header />
