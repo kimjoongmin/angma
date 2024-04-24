@@ -26,20 +26,15 @@ import Header from "./components/Header";
 import DayList from "./components/DayList";
 import Day from "./components/Day";
 import EmptyPage from "./components/EmptyPage";
-import CreateWord from "./components/CreateWord";
-import CreateDay from "./components/CreateDay";
 
 export default function App() {
-    return (오류코드
+    return (
         <div className="App">
             <BrowserRouter>
-                잘된코드
                 <Header />
                 <Routes>
                     <Route path="/" element={<DayList />} />
                     <Route path="/day/:day" element={<Day />} />
-                    <Route path="/createWord" element={<CreateWord />} />
-                    <Route path="/createDay" element={<CreateDay />} />
                     <Route path="*" element={<EmptyPage />} />
                 </Routes>
             </BrowserRouter>
