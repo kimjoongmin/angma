@@ -34,18 +34,19 @@
 import { useEffect, useState } from "react";
 
 export default function UseFetch(url) {
-    const [data, setData] = useState();
+    const [data, setData] = useState([]);
     useEffect(() => {
         fetch(url)
             .then(res => {
                 if (!res.ok) {
                     throw new Error("Network response was not ok");
                 }
-                return data;
+                return res.json();
             })
             .then(data => setData(data))
             .catch(error => {
                 console.error("Error: ", error);
             });
-    }, [data, url]);
+    }, [url]);
+    return data;
 }
